@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tropicalfruitandveg</string>
+    <string name="search">Search</string>
+    <string name="browse">Browse</string>
+    <string name="about">About</string>
+    <string name="title_about">About Tropicalfruitandveg</string>
+    <string name="title_summary">Summary</string>
+    <string name="title_detail">Details</string>
+    <string name="tfvabout">Tropicalfruitandveg</string>
+    <string name="tfvversion">v1.2 \u00A9 tropicalfruitandveg.com 2013</string>
+    <string name="tfv_mainpage">Tropicalfruitandveg App provides information on tropical, exotic and unusual fruits and vegetables.
+        						Enter something to search for or browse through the full list.</string>
+    <string name="tfv_email">\(info@tropicalfruitandveg.com\)</string>
+    <string name="tfv_aboutinfo">Tropicalfruitandveg App provides information on tropical, exotic and unusual fruits, vegetables, 
+        						spices, herbs and nuts.</string>
+</resources>

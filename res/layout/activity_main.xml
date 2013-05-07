@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF80"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tfvapp"
+        android:text="@string/tfv_mainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+       	android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <EditText
+		android:id="@+id/searchText"
+        android:layout_width="240dp"
+       	android:layout_height="wrap_content"
+      	android:layout_below="@+id/tfvapp"
+      	android:layout_marginTop="24dp"
+       	android:layout_centerHorizontal="true"
+        android:ems="10"
+		android:inputType="text"
+        android:imeOptions="actionDone"
+        android:hint="@string/search" />
+
+   <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="16dp"
+       android:minHeight="100dp"
+       android:minWidth="100dp"
+       android:src="@drawable/tfvegicon" />
+
+   <Button
+       android:id="@+id/but_search"
+       android:text="@string/search"
+       android:layout_below="@+id/searchText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:onClick="gettfvinfo"
+       android:textSize="14sp" />
+        
+   <Button
+       android:id="@+id/but_show"
+       android:text="@string/browse"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/but_search"
+       android:onClick="gettfvinfo"
+       android:layout_centerHorizontal="true"
+       android:textSize="14sp" />
+
+</RelativeLayout>
